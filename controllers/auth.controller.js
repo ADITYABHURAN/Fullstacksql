@@ -50,7 +50,7 @@ export const registerUser = async (req, res) => {
    });
    }
 };
-
+//git commit
 export const loginUser = async (req, res) => {
  const {email, password} = req.body;
  //Check if all fields are provided
